@@ -1,0 +1,94 @@
+.logo{
+  height: 50px;
+  width: 50px;
+}
+.menu-bar{
+  background-color: red;
+  height: 80px;
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-bar ul{
+  list-style-type: none;
+  display: flex;
+}
+.menu-bar ul li{
+  padding: 10px 30px;
+  position: relative;
+}
+.menu-bar ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.menu-bar ul li a:hover{
+  color: blue;
+}
+.dropdown-menu{
+  display: none;
+}
+.menu-bar ul li:hover .dropdown-menu{
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 100%;
+  background-color: red;
+}
+.menu-bar ul li:hover .dropdown-menu ul{
+  display: block;
+  margin: 10px;
+}
+.dropdown-menu ul li{
+  width: 150px;
+  padding: 10px;
+}
+.icon{
+  float: right;
+  padding-top: 3px;
+}
+.dropdown-cass{
+  display: none;
+}
+ .dropdown-menu ul li:hover .dropdown-cass{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 100px;
+  margin: 10px;
+  background-color: red;
+  height: 200px;
+  width: 150px;
+  margin-left: 60px;
+ }
+ .dropdown-sloss{
+  display: none;
+}
+ .dropdown-menu ul li:hover .dropdown-sloss{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 100px;
+  margin: 10px;
+  background-color: red;
+  height: 200px;
+  width: 150px;
+  margin-left: 60px;
+ }
+ .dropdown-org{
+  display: none;
+}
+ .dropdown-menu ul li:hover .dropdown-org{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 100px;
+  margin: 10px;
+  background-color: red;
+  height: 200px;
+  width: 150px;
+  margin-left: 60px;
+ }
+ 
